@@ -246,7 +246,7 @@ export default function App() {
         <div className="mx-auto relative z-10 flex flex-col md:flex-row justify-between items-start md:items-end gap-6">
           <div>
             <div className="inline-block bg-white text-slate-900 font-black text-[10px] px-4 py-1.5 rounded-full uppercase tracking-[0.2em] mb-4 shadow-lg border-2 border-rose-600">
-              FORKI • PERMENPORA 15 / 2024
+              PERMENPORA 15 / 2024
             </div>
             <h1 className="text-4xl md:text-6xl font-black tracking-tighter leading-tight italic uppercase text-white drop-shadow-md">
               KARATE <span className="text-rose-500">KINETICS</span>
@@ -265,7 +265,7 @@ export default function App() {
             )}
             <div className="mt-2">
                 <p className="font-black text-slate-300 text-[11px] tracking-[0.3em] uppercase">
-                  Kumite Analytics <span className="text-rose-500">by fiqhipondaa9</span>
+                  Physical Analytics <span className="text-rose-500">by fiqhipondaa9</span>
                 </p>
             </div>
           </div>
@@ -424,7 +424,7 @@ export default function App() {
           
           <div className={`rounded-[3rem] p-10 shadow-2xl text-center relative overflow-hidden transition-all duration-700 border-b-[12px] ${averageScore > 80 ? 'bg-slate-900 text-white border-rose-600' : averageScore < 60 && averageScore > 0 ? 'bg-red-800 text-white border-red-900' : 'bg-white border-slate-200'}`}>
             <div className="absolute top-0 left-0 w-full h-2 bg-gradient-to-r from-rose-400 to-slate-900 opacity-50"></div>
-            <h3 className={`text-[11px] font-black uppercase tracking-[0.3em] mb-3 ${averageScore > 80 || (averageScore < 60 && averageScore > 0) ? 'text-rose-400/60' : 'text-slate-400'}`}>Kumite Performance Score</h3>
+            <h3 className={`text-[11px] font-black uppercase tracking-[0.3em] mb-3 ${averageScore > 80 || (averageScore < 60 && averageScore > 0) ? 'text-rose-400/60' : 'text-slate-400'}`}>Physical Performance Score</h3>
             <div className="text-[100px] font-black tracking-tighter mb-4 italic leading-none drop-shadow-lg">{isBlanko ? '-' : averageScore || 0}</div>
             
             <div className={`inline-flex items-center justify-center gap-3 px-8 py-3 rounded-2xl text-[11px] font-black uppercase tracking-[0.2em] shadow-inner border ${averageScore > 80 ? 'bg-rose-900/50 text-rose-400 border-rose-500/30' : averageScore < 60 && averageScore > 0 ? 'bg-red-900/50 text-red-100 border-red-500/30' : 'bg-slate-100 text-slate-600 border-slate-200'}`}>
