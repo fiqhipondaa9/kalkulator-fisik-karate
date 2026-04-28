@@ -249,7 +249,7 @@ export default function App() {
               PERMENPORA 15 / 2024
             </div>
             <h1 className="text-4xl md:text-6xl font-black tracking-tighter leading-tight italic uppercase text-white drop-shadow-md">
-              KARATE <span className="text-rose-500">KINETICS</span>
+              KALKULATOR FISIK<span className="text-rose-500">KARATE</span>
             </h1>
           </div>
           <div className="text-left md:text-right w-full md:w-auto">
