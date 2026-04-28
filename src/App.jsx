@@ -350,7 +350,7 @@ export default function App() {
           <div className="bg-white rounded-[2.5rem] p-8 shadow-sm border border-slate-200">
             <div className="flex items-center gap-4 mb-8 border-b border-slate-100 pb-5">
               <div className="bg-rose-100 text-rose-700 p-3 rounded-2xl"><IconFist /></div>
-              <h2 className="text-2xl font-black text-slate-900 uppercase tracking-tight italic">Tatami Combat Metrics</h2>
+              <h2 className="text-2xl font-black text-slate-900 uppercase tracking-tight italic">Rekam Hasil Tes Fisik</h2>
             </div>
             
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-5">
